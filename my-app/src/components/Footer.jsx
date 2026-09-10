@@ -1,10 +1,10 @@
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 
 // ฟังก์ชันเลือก class: ถ้าเป็นหน้าปัจจุบัน ให้สีฟ้า + ขีดเส้นใต้
-const linkClass = ({ isActive }) =>
-  isActive
-    ? 'text-cyan-400 font-semibold underline underline-offset-4'
-    : 'text-slate-300 hover:text-cyan-400 transition';
+// const linkClass = ({ isActive }) =>
+//   isActive
+//     ? 'text-cyan-400 font-semibold underline underline-offset-4'
+//     : 'text-slate-300 hover:text-cyan-400 transition';
 
 
 function Footer() {
